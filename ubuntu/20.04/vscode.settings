@@ -1,0 +1,95 @@
+{
+    /* Explorer section */
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    /* Editor section */
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestions": true,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.quickSuggestionsDelay": 10,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.tabCompletion": "off",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.wordBasedSuggestions": true,
+    "editor.parameterHints.enabled": true,
+    "editor.fontSize": 12,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+    },
+    /* Window section */
+    "window.zoomLevel": 1,
+    /* Workbench section */
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Just Black",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.visible": true,
+    /* Terminal section */
+    "terminal.integrated.fontSize": 13,
+    /* Files section */
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 300,
+    "files.exclude": {
+        "**/.*": false
+    },
+    /* vsintellicode section */
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    /* VIM Section */
+    "vim.vimrc.enable": true,
+    /* ============================ LAGUAGE SECTION ========================== */
+    /* Markdown section */
+    "markdown.preview.fontSize": 13,
+    "markdownlint.config": {
+        "default": true,
+        "MD003": {
+            "style": "atx_closed"
+        },
+        "MD007": {
+            "indent": 4
+        },
+        "no-hard-tabs": false
+    },
+    /* Python section */
+    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.extraPaths": [
+        "${workspaceRoot}",
+        "${workspaceRoot}/migration/modules/"
+    ],
+    "python.analysis.logLevel": "Trace",
+    "python.globalModuleInstallation": true,
+    "python.insidersChannel": "off",
+    "python.showStartPage": false,
+    "python.linting.pylintEnabled": true,
+    /* Go section */
+    "go.autocompleteUnimportedPackages": true,
+    "php.validate.enable": true,
+    "php.validate.run": "onType",
+    "cSpell.language": "en,en-US",
+    "cSpell.enableFiletypes": [
+        "apacheconf",
+        "diff",
+        "dockerfile",
+        "go.mod",
+        "go.sum",
+        "ignore",
+        "ini",
+        "jinja",
+        "log",
+        "makefile",
+        "perl",
+        "sql",
+        "ssh_config",
+        "vimrc",
+        "xml"
+    ],
+    "editor.suggestSelection": "first",
+    "python.languageServer": "Pylance",
+    "python.analysis.extraPaths": [
+        "${workspaceRoot}",
+        "${workspaceRoot}/migration/modules/"
+    ],
+    "python.analysis.completeFunctionParens": true,
+    "editor.fontFamily": "'Tlwg Typo Light', 'Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+}
