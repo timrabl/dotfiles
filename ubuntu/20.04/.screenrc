@@ -1,0 +1,9 @@
+startup_message off
+
+vbell off
+
+defscrollback 100000
+
+termcapinfo xterm* ti@:te@
+
+bind > eval writebuf "exec sh -c 'xsel -nbi </tmp/screen-exchange'"
